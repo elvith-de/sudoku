@@ -1,0 +1,78 @@
+#sudoku_container h1 {
+text-align: center;
+}
+
+#sudoku_container table {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sudoku_container table tr td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    padding: 5px;
+    font-size: 30pt;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    font-weight: bold;
+}
+
+#sudoku_container table tr .left {
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: black;
+}
+
+#sudoku_container table tr .right {
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+#sudoku_container table tr .top {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+#sudoku_container table tr .bottom {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#sudoku_container table tr td input {
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    color: blue;
+    width: 60px;
+    height: 60px;
+}
+
+#sudoku_container table tr .userSupplied {
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    color: blue;
+    width: 60px;
+    height: 60px;
+}
+
+#sudoku_container table tr .bruteForced {
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    color: red;
+    width: 60px;
+    height: 60px;
+}
